@@ -1,0 +1,24 @@
+<style>
+    .event-img{
+        width:150px;
+        border-radius: 15px;
+    }
+
+</style>
+
+{% assign events = site.data.events | where: "status", "upcoming" %}
+
+{% for event in events %}
+    <div class = "card mt-5">
+        <div class = "card-body d-flex flex-row">
+            <div class = "p-2">
+                <img class ="event-img" src="{{ event.image }}" alt="Event image">
+            </div>
+            <div class = "p-2">
+                <h5 class ="font-weight-bolder text-dark"> {{ event.name }}  </h5>
+                <p> {{ event.date }}</p>
+                <p> {{ event.description }} </p>
+            </div>
+        </div>
+    </div>
+{% endfor %}
