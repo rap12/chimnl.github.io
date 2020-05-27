@@ -1,0 +1,110 @@
+
+html{
+    --lh: 1.6rem;
+    line-height: var(--lh);
+}
+
+.see-more{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.exec-img{
+    width:150px;
+    border-radius: 15px;
+}
+.user{
+    position:relative;
+    width:auto;
+    overflow: hidden;
+    padding: 1.5rem;
+    transition: ease all 0.3s;
+}
+.user-img{
+    border-radius: 100%;
+    max-height: 8rem;
+    max-width: 8rem;
+    min-height: 8rem;
+    min-width: 8rem;
+    margin-right: 2rem;
+}
+.member-name{
+    font-size:20px
+}
+
+.stiff{
+    overflow: hidden;
+}
+
+.module{
+    width: 250px;
+    margin: 0 0 1em 0;
+    overflow: hidden;
+}
+.module p{
+    margin: 0;
+   
+ 
+}
+.overflow{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+}
+
+
+
+
+#member-overlay {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1000;
+}
+
+#member-container {
+    position: relative;
+    z-index: 999;
+    max-height: 40rem;
+    padding: 1.5rem;
+    width:40rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    overflow-y: scroll;
+}
+#member-container .user-bio{
+    font-size:18px;
+    line-height: 1.85rem;
+}
+
+/* #member-container .user-img {
+    border-radius: 100%;
+    max-height: var(--value-128);
+    max-width: var(--value-128);
+    min-height: var(--value-128);
+    min-width: var(--value-128);
+    margin-right: var(--value-32);
+} */
+
+#member-close {
+    cursor: pointer;
+	float: right;
+	margin: 1rem;
+    position: absolute;
+    top: 10pt;
+    right: 10pt;
+    z-index: 900;
+}
+
+#member-click-off {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 700;
+}
