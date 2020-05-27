@@ -11,6 +11,12 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat" !default;
 @import url($web-font-path);
 
 // Navbar ======================================================================
+.z{
+  z-index: 998;
+}
+.hidden{
+  display:none;
+}
 .dropdown:hover .dropdown-menu{
   display:block;
 }
@@ -331,4 +337,10 @@ legend {
   h1, h2, h3, h4, h5, h6 {
     color: inherit;
   }
+}
+
+
+.position{
+  color: $primary;
+  font-size:24px;
 }
