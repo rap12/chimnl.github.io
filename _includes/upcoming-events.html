@@ -1,7 +1,20 @@
 <style>
-    .event-img{
-        width:150px;
+    @media only screen and (max-width: 991px) {
+        .card-body .event-img{
+            max-width: 100% !important;
+            min-width: 100% !important;
+            min-height: 340px !important;
+            background-position: center !important;
+        }
+        .card-body .event-details{
+            margin-top: 15px;
+        }
+    }
+    .card-body .event-img{
+        width: 200px;
         border-radius: 15px;
+        background-position: center; 
+        background-size: cover;
     }
 
 </style>
@@ -10,14 +23,15 @@
 
 {% for event in events %}
     <div class = "card mt-5">
-        <div class = "card-body d-flex flex-row">
-            <div class = "p-2">
+        <div class = "card-body row">
+            <div class = "col-lg-3">
                 <img class ="event-img" src="{{ event.image }}" alt="Event image">
             </div>
-            <div class = "p-2">
+            <div class = "col-lg ml-3 mr-3 event-details">
                 <h5 class ="font-weight-bolder text-dark"> {{ event.name }}  </h5>
                 <p> {{ event.date }}</p>
                 <p> {{ event.description }} </p>
+                <a href=" {{ event.ticket_url }} " class="btn btn-primary"> Get Tickets </a>
             </div>
         </div>
     </div>

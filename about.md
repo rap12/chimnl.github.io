@@ -8,7 +8,7 @@ title: About CHI MNL
     }
 
 </style>
-<div class = "bg-primary pb-5 pt-5" style = "height:400px; ">
+<div class = "bg-primary pb-5 pt-5" style = "height:400px auto; ">
     <div class = "container text-white">
         <h3 class = "font-weight-bolder text-white" >About CHI MNL</h3>
         <p class = "about mt-5"> {{ site.data.info.about.description }} </p>
