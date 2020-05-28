@@ -28,6 +28,7 @@ repository: "https://github.com/chimnl/chimnl.github.io"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # A list of the pages to display in the navigation bar
 header_pages:
