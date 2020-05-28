@@ -3,6 +3,11 @@
 ---
 @charset "utf-8";
 
+@font-face{
+    font-family: barabara;
+    src: url(fonts/Barabara.otf);
+}
+
 @import "variables",
         "bootstrap/bootstrap",
         "syntax-highlighting",
