@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CHI MNL Executive Committee
+title: "CHI MNL Executive Committee"
 ---
 {% include member-info.html %}
 
@@ -10,8 +10,8 @@ title: CHI MNL Executive Committee
     <div class = "d-flex flex-wrap justify-content-center">
     <!-- {% assign members = site.data.execom.committee %} -->
         {% for member in site.data.execom %}
-        <div class = "user shadow-sm bg-white m-3 text-center">
-            <div class="user-img bg-secondary mx-auto margin-bottom-16" style="background: url( {{ member.image }} ); background-position: center; background-size: cover;"></div>
+        <div class = "user shadow bg-white rounded m-3 text-center">
+            <div class="user-img bg-secondary mx-auto" style="background: url( {{ member.image }} ); background-position: center; background-size: cover;"></div>
             <p class = "position mt-2 m-0 text-center">{{ member.position }}</p>
             <p class = "text-center m-0 member-name">{{ member.name }}</p>
             <div class = "user-bio module overflow">
