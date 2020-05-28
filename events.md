@@ -3,6 +3,11 @@ layout: default
 title: "CHI MNL Events"
 ---
 <style>
+     @media only screen and (max-width: 991px) {
+        .past-event img{
+            width:100%;
+        }
+     }
     .past-event{
         position:relative;
         width:auto;
@@ -10,12 +15,18 @@ title: "CHI MNL Events"
         padding: 1.5rem;
         transition: ease all 0.3s;
     }
-    .past-event img{
+    .past-event .past-img{
         /* border-radius: 15px; */
-        /* max-height: 30rem; */
-        max-width: 30rem;
-        /* min-height: 30rem; */
-        min-width: 30rem;
+        max-height: 25rem;
+        max-width: 35rem;
+        min-height: 25rem;
+        min-width: 35rem;
+        /* height:auto; */
+    }
+
+    .past-event .past-img{
+        /* background-image: url('/assets/img/events/ubiquitous.jpeg'); */
+        /* width:100px; */
     }
 </style>
 <section  class = "pt-5 pb-5">
@@ -32,7 +43,8 @@ title: "CHI MNL Events"
         {% assign past_events = site.data.events | where: "status", "ended" %}
             {% for past in past_events %}
                 <div class = "past-event m-3 text-center">
-                    <img class = "bg-secondary mx-auto shadow rounded" src = " {{ past.image }} "/>
+                    <div class = "past-img bg-secondary mx-auto shadow rounded" style = "background-image: url('{{ past.image }}'); background-position: center; background-size: cover;"></div>
+                    <!-- <img class = "bg-secondary mx-auto shadow rounded" src = " {{ past.image }} "/> -->
                     <h5 class = "mt-4 font-weight-bold text-primary"> {{ past.name }} </h5>
                     <p>{{ past.date }}</p>
                 </div>
