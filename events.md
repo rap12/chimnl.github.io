@@ -4,8 +4,11 @@ title: "CHI MNL Events"
 ---
 <style>
      @media only screen and (max-width: 991px) {
-        .past-event img{
-            width:100%;
+        .past-event .past-img{
+            max-width: 100% !important;
+            min-width: 100% !important;
+            min-height: 340px !important;
+            background-position: center !important;
         }
      }
     .past-event{
