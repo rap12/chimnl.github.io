@@ -22,11 +22,9 @@ $(document).ready(function() {
         $('#member-container #member-content').empty();
         $('.user').eq(index).clone().appendTo('#member-content');
         $('#member-container *').removeClass('d-none');
-        $('#member-container .user-bio').removeClass('module');
-        $('#member-container .user-bio').removeClass('overflow');
-        $('#member-container .user').removeClass('shadow-sm');
+        $('#member-container .user-bio').attr("hidden", false);
+        $('#member-container .user').removeClass('shadow');
         $('#member-container .user').removeClass('user');
-        $('#member-container p').addClass('text-center');
         $('#member-container .user-bio').addClass('mb-3');
         $('#member-container a').addClass("hidden");
 

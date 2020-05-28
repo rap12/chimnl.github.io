@@ -15,7 +15,7 @@ html{
 }
 .user{
     position:relative;
-    width:auto;
+    width:400px;
     overflow: hidden;
     padding: 1.5rem;
     transition: ease all 0.3s;
