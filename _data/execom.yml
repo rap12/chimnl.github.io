@@ -3,27 +3,39 @@
   affiliation: "University of the Philippines - Los Baños"
   bio: "Toni-Jan Keith Monserrat is a researcher who focuses on Human-Computer Interaction field, working on research in Pedagogy and Technology in Interactive Platforms on Learning. He volunteers his time and expertise to various organizations such as Google Developer Group Philippines, User Experience Philippines, Philippine Web Designers Organization, and ACM Special Interest Group on Computer-Human Interaction. His love for speed and performance as part of the design makes him love his mission to help others do performant-ready web apps and bake into them performance-ready patterns into their design toolset."
   image: "assets/img/execom/tj.png"
+  socials: ['','','']
 
 - name: "Jennifer P. Teves"
   position: "Vice Chair"
-  affiliation: "Best Buy"
+  affiliation: "Best Buy Co. Inc. / <br> Kent State University"
   bio: "Dr. Jennifer P. Teves is an industry research practitioner & the current Director for Customer Experience Research for the US-headquartered giant retailer, Best Buy. She is a part-time faculty for UX Design at Kent State University's School of Information (Ohio, USA). Jen has a doctoral degree in Human Factors Psychology from Wichita State University (Kansas, USA) & has specialized in research in intuitive & usable information visualization; human factors in driving, aviation, & healthcare; usability of input & mobile devices. Her current research interests are: building inclusive & accessible technologies through inclusive research; applications of cognitive psychology & HCI principles to defense strategies & military technologies, particularly for the purposes of counter-insurgency in the Philippine setting."
   image: "assets/img/execom/jen.jpg"
+  socials: ['<a href = "https://www.linkedin.com/in/jenniferteves/" target="_blank"><i class="fab fa-linkedin"></i></a>',
+            '',
+            '']
+
 
 - name: "Ralph Vincent Regalado"
   position: "Treasurer"
   affiliation: "Senti Techlabs"
   bio: "Ralph Vincent Regalado is Senti AI’s CEO and a Google Developer Expert for Machine Learning. He began dabbling in the startup scene when he joined Ideaspace’s StartUp Weekend Manila. Ralph pitched the concept of an AI-backed analytics software that was able to understand Filipino languages and ended up winning. To date, he leads Senti AI, the pioneering Artificial Intelligence company in the Philippines that is focused on creating customer-centric AI solutions for BPOs, telcos, media, government, research, and more. His company’s mission is to empower humans and organizations to efficiently work with AI. Before innovating the Artificial Intelligence scene in the Philippines, Ralph fulfilled his first passion: teaching. Ralph was a former Assistant Professor at De La Salle University where he taught mobile, web development, and technopreneurship courses. Continuing his passion for education, Ralph now also travels around the world conducting Machine Learning bootcamps on behalf of Google to address the lack of talent in and awareness about Artificial Intelligence."
   image: "assets/img/execom/ralph.jpg"
+  socials: ['<a href = "https://www.linkedin.com/in/rvregalado/" target="_blank"><i class="fab fa-linkedin"></i></a>',
+  '<a href = "https://www.youtube.com/channel/UCOLmqQP8Xc10TEk8Tr6QuWQ" class = "text-danger" target="_blank"><i class="fab fa-youtube"></i></a>',
+  '<a href = "https://twitter.com/ralphjregalado/" target="_blank"><i class="fab fa-twitter"></i></a>']
+
 
 - name: "Jordan Aiko Deja"
   position: "Secretary"
   affiliation: "University of Primorska / <br> De La Salle University"
   bio: "Jordan Aiko Deja is a Phd Student at the University of Primorska, Koper, Slovenia. He is part of the Humans Interacting with Computers @ University of Primorska (HICUP) Laboratory where he is doing research on computational interactions and visualizations in augmented reality teaching systems. He is also an Assistant Professor (On-Leave) at De La Salle University, Manila Philippines. He is co-founder of Manila ACM SIGCHI Chapter, Community Lead of UX Philippines."
   image: "assets/img/execom/jordan.png"
+  socials: ['','','']
+
 
 - name: "Briane Paul V. Samson"
   position: "Membership Chair"
   affiliation: "Future University Hakodate / <br> De La Salle University"
   bio: "Briane Paul V. Samson is a Ph.D. candidate at the Graduate School of Systems Information Science in Future University Hakodate, Japan. Concurrently, he is an Assistant Professor of Computer Science in the College of Computer Studies at De La Salle University, Philippines. As an interdisciplinary researcher, he focuses on integrating human-computer interaction and complex systems research in developing and evaluating civic technologies. Currently, he is developing novel driving navigation applications and interaction techniques for drivers that can influence their mobility patterns towards more livable and sustainable cities. His research also spans a broad range of topics in complex systems, human-computer interaction and civic computing, including reflective spaces, transportation, collaboration and social networks, crowd dynamics, multi-criteria modeling and optimization, and civic solutions for mobility, transportation, and disaster awareness and preparedness."
   image: "assets/img/execom/briane.jpg"
+  socials: ['','','']

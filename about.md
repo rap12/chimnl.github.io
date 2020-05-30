@@ -7,8 +7,11 @@ title: About CHI MNL
         font-size: 20px !important;
     }
     .heading{
-        background: rgb(46,171,204);
-        background: linear-gradient(219deg, rgba(46,171,204,1) 7%, rgba(69,132,217,1) 92%)
+        background-image: url(assets/img/zigzag.png);
+        background-position: center; 
+        background-size: cover;
+        /* background: rgb(46,171,204);
+        background: linear-gradient(219deg, rgba(46,171,204,1) 7%, rgba(69,132,217,1) 92%) */
     }
 
 </style>

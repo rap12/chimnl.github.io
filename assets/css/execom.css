@@ -1,14 +1,3 @@
-
-html{
-    --lh: 1.6rem;
-    line-height: var(--lh);
-}
-
-.see-more{
-    margin: 0 auto;
-    text-align: center;
-}
-
 .exec-img{
     width:150px;
     border-radius: 15px;
@@ -28,6 +17,7 @@ html{
     min-width: 8rem;
     margin-right: 2rem;
 }
+
 .member-name{
     font-size:20px
 }
@@ -36,24 +26,27 @@ html{
     overflow: hidden;
 }
 
-.module{
-    width: 250px;
-    margin: 0 0 1em 0;
-    overflow: hidden;
-}
-.module p{
-    margin: 0;
-   
- 
-}
-.overflow{
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;  
+
+.more-name:hover{
+    cursor: pointer;
+    text-decoration: underline !important;
 }
 
+.socials{
+    font-size: 25px;
+    letter-spacing: 5px;
+    /* margin: 5px; */
+}
 
-
+@media only screen and (max-width: 900px){
+    #member-container{
+        max-width:90%;
+        min-width:90%;
+        max-height:90% !important;
+        min-height:90%;
+        overflow-y: scroll;
+    }
+}
 
 #member-overlay {
     position: fixed;
@@ -71,15 +64,17 @@ html{
     z-index: 999;
     max-height: 40rem;
     padding: 1.5rem;
-    width:40rem;
+    width:50rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
     overflow-y: scroll;
 }
 #member-container .user-bio{
-    font-size:18px;
+    font-size:16px;
     line-height: 1.85rem;
 }
+
+
 
 /* #member-container .user-img {
     border-radius: 100%;
