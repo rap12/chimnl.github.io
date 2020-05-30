@@ -1,8 +1,37 @@
+- name: "Q2 Townhall Meeting"
+  date: "June 2020"
+  description: "The Manila ACM SIGCHI Chapter will be having its Townhall Meeting this June 2020. Townhalls are meetups that are exclusive for the registered members of the chapter. For this June 2020 townhall meeting, Chapter Vice-Chair Dr. Jen Teves will be leading an envisioning workshop with our members. This will help them identify and plot their research roadmap as aligned with the CHI specializations"
+  image: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/68757169_100288001332465_4293111346142117888_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=ElyRbC-_bcAAX8N_Cou&_nc_ht=scontent.fmnl17-2.fna&oh=1577dd72bf700e03381db2eff92d8745&oe=5EF5AE9A"
+  status: "upcoming"
+  ticket_url: "#"
+
+- name: "Post-CHI Study Group"
+  date: "July 2020"
+  description: "Even if the CHI conference did not take place this year, accepted papers and abstracts were still published in its proceedings. The July 2020 Post CHI Study Group will be a meetup for the members of the Manila ACM SIGCHI Chapter to discuss Filipino papers published in CHI and several papers that have been curated by the executive committee."
+  image: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/68757169_100288001332465_4293111346142117888_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=ElyRbC-_bcAAX8N_Cou&_nc_ht=scontent.fmnl17-2.fna&oh=1577dd72bf700e03381db2eff92d8745&oe=5EF5AE9A"
+  status: "upcoming"
+  ticket_url: "#"
+
+
+- name: "Q3 Townhall Meeting"
+  date: "September 2020"
+  description: "The Manila ACM SIGCHI Chapter will be having another Townhall Meeting this September 2020. Townhalls are meetups that are exclusive for the registered members of the chapter. For this September 2020 townhall meeting, members will have the opportunity to discuss, give updates, and get feedback regarding their planned research for submission to upcoming CHI venues in 2021."
+  image: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/68757169_100288001332465_4293111346142117888_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=ElyRbC-_bcAAX8N_Cou&_nc_ht=scontent.fmnl17-2.fna&oh=1577dd72bf700e03381db2eff92d8745&oe=5EF5AE9A"
+  status: "upcoming"
+  ticket_url: "#"
+
+- name: "DSP with Mark Billinghurst"
+  date: "October 2020"
+  description: "In response to the current times, the Manila ACM SIGCHI Chapter intends to invite Prof Mark Billinghurst, a renowned professor on Human-Computer Interaction and Augmented Reality, to deliver a keynote lecture on virtual, augmented reality and the future of remote work."
+  image: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/68757169_100288001332465_4293111346142117888_n.jpg?_nc_cat=103&_nc_sid=85a577&_nc_ohc=ElyRbC-_bcAAX8N_Cou&_nc_ht=scontent.fmnl17-2.fna&oh=1577dd72bf700e03381db2eff92d8745&oe=5EF5AE9A"
+  status: "upcoming"
+  ticket_url: "#"
+
 - name: "CHI MNL Meetup #2: HCI Research in the Time of the Coronavirus"
   date: "April 20, 2020"
   description: "For researchers whose sole purpose is to listen to the voice of customers and users, how does research happen at a time when you are ordered to social distance & stay at home?"
   image: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/s960x960/94247155_240044050690192_2033066011292336128_o.png?_nc_cat=103&_nc_sid=8024bb&_nc_ohc=QxGZTBAZzwMAX9-wwJA&_nc_ht=scontent.fmnl17-2.fna&oh=cf18fd121482010396c80239f5b704a0&oe=5EF21A06"
-  status: "upcoming"
+  status: "ended"
   ticket_url: "#"
 
 - name: "Ubiquitous User Interfaces"
