@@ -38,7 +38,12 @@
 // Navbar brand
 //
 // Used for brand, project, or site names.
+@media only screen and (max-width: 640px){
+  .navbar-brand{
+    margin-left: $navbar-padding-x / 3 !important;
+  }
 
+}
 .navbar-brand {
   display: inline-block;
   padding-top: $navbar-brand-padding-y;
