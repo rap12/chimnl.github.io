@@ -42,6 +42,21 @@ title: "CHI MNL | CHI2020 Study Group"
     .event-abstract p {
         display: inline;
     }
+
+    .event-speaker {
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+        float: right;
+    }
+
+    .event-speaker img {
+        width: 200px;
+    }
+
+    .event-speaker p {
+        text-align: center;
+    }
 </style>
 <section  class = "pt-5 pb-5">
     <div class = "container">
@@ -53,8 +68,19 @@ title: "CHI MNL | CHI2020 Study Group"
             </p>
         </div>
         <h4 class = "mt-4">Why join the study group?</h4>
-        <p>HCI is a very diverse field and it is steadily growing in terms of the number of exceptional contributions and the emergence of new lines of research. For example in 2021, a growing number of contributions in critical computing and computational interaction led to the creation of new subcommittees in the conference. The study group aims to quickly get an overview of the new HCI research contributions published at the premier HCI conference. After this event, we hope that the participants can identify topics and problems that they are interested in and start new research projects.</p>
-        <p>In 2021, the CHI conference will be held in Japan for the first time. As it comes to Asia, we hope that this event can inspire the Filipino HCI community to work on exceptional submissions.</p>
+        <div class="event-details">
+            <div class="event-speaker">
+                <img src="../../assets/img/events/bono_olgado.jpeg">
+                <p><a href="https://www.bsolgado.com/" target="_blank">Benedict Olgado</a></p>
+            </div>
+            <div class="event-speaker">
+                <img src="../../assets/img/events/gierad_laput.jpg">
+                <p><a href="https://www.gierad.com/" target="_blank">Gierad Laput</a></p>
+            </div>
+            <p>HCI is a very diverse field and it is steadily growing in terms of the number of exceptional contributions and the emergence of new lines of research. For example in 2021, a growing number of contributions in critical computing and computational interaction led to the creation of new subcommittees in the conference. The study group aims to quickly get an overview of the new HCI research contributions published at the premier HCI conference. After this event, we hope that the participants can identify topics and problems that they are interested in and start new research projects.</p>
+            <p>We also invited Filipino researchers who have accepted papers at CHI 2020. We will have <a href="https://www.gierad.com/" target="_blank">Gierad Laput</a> from Apple as our Keynote speaker and <a href="https://www.bsolgado.com/" target="_blank">Benedict Olgado</a> from UC Irvine for an invited talk about his recent work.</p>
+            <p>In 2021, the CHI conference will be held in Japan for the first time. We hope that this event can inspire the Filipino HCI community to work on exceptional submissions.</p>
+        </div>
         <h4 class = "mt-4">How do I participate?</h4>
         <p>People who would like to present CHI papers must do the following steps:</p>
         <ol>

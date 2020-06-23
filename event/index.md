@@ -24,12 +24,9 @@ title: "CHI MNL Events"
         max-width: 35rem;
         min-height: 25rem;
         min-width: 35rem;
+        background-position: center; 
+        background-size: contain;
         /* height:auto; */
-    }
-
-    .past-event .past-img{
-        /* background-image: url('/assets/img/events/ubiquitous.jpeg'); */
-        /* width:100px; */
     }
 </style>
 <section  class = "pt-5 pb-5">
@@ -46,7 +43,7 @@ title: "CHI MNL Events"
         {% assign past_events = site.data.events | where: "status", "ended" %}
             {% for past in past_events %}
                 <div class = "past-event m-3 text-center">
-                    <div class = "past-img bg-secondary mx-auto shadow rounded" style = "background-image: url('{{ past.image }}'); background-position: center; background-size: cover;"></div>
+                    <div class = "past-img bg-light mx-auto shadow rounded" style = "background-image: url('{{ past.image }}'); "></div>
                     <!-- <img class = "bg-secondary mx-auto shadow rounded" src = " {{ past.image }} "/> -->
                     <h5 class = "mt-4 font-weight-bold text-primary"> {{ past.name }} </h5>
                     <p>{{ past.date }}</p>

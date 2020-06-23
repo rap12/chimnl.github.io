@@ -15,7 +15,8 @@
         height: 200px;
         border-radius: 15px;
         background-position: center; 
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 
 </style>
@@ -26,7 +27,7 @@
     <div class = "card mt-5">
         <div class = "card-body row">
             <div class = "col-lg-3">
-                <div class = "event-img bg-secondary mx-auto" style = "background-image: url('{{ event.image }}'); background-position: center; background-size: cover;"></div>
+                <div class = "event-img mx-auto" style = "background-image: url('{{ event.image }}');"></div>
                 <!-- <img class ="event-img" src="{{ event.image }}" alt="Event image"> -->
             </div>
             <div class = "col-lg ml-3 mr-3 event-details">
