@@ -3,35 +3,6 @@ layout: default
 title: "CHI MNL | CHI2020 Study Group"
 ---
 <style>
-     @media only screen and (max-width: 991px) {
-        .past-event .past-img{
-            max-width: 100% !important;
-            min-width: 100% !important;
-            min-height: 340px !important;
-            background-position: center !important;
-        }
-     }
-    .past-event{
-        position:relative;
-        width:auto;
-        overflow: hidden;
-        padding: 1.5rem;
-        transition: ease all 0.3s;
-    }
-    .past-event .past-img{
-        /* border-radius: 15px; */
-        max-height: 25rem;
-        max-width: 35rem;
-        min-height: 25rem;
-        min-width: 35rem;
-        /* height:auto; */
-    }
-
-    .past-event .past-img{
-        /* background-image: url('/assets/img/events/ubiquitous.jpeg'); */
-        /* width:100px; */
-    }
-
     .event-abstract img {
         width: 200px;
         margin-left: 10px;

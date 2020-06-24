@@ -12,7 +12,6 @@
     }
     .card-body .event-img{
         width: 200px;
-        height: 200px;
         border-radius: 15px;
         background-position: center; 
         background-size: contain;
@@ -21,7 +20,7 @@
 
 </style>
 
-{% assign events = site.data.events | where: "status", "upcoming" %}
+{% assign events = site.data.events | where: "status", "ended" %}
 
 {% for event in events %}
     <div class = "card mt-5">
@@ -30,16 +29,9 @@
                 <div class = "event-img mx-auto" style = "background-image: url('{{ event.image }}');"></div>
                 <!-- <img class ="event-img" src="{{ event.image }}" alt="Event image"> -->
             </div>
-            <div class = "col-lg ml-3 mr-3 event-details">
+            <div class = "col-lg ml-3 mr-3 event-details d-flex flex-column flex-wrap justify-content-center">
                 <h5 class ="font-weight-bolder text-primary"> {{ event.name }}  </h5>
                 <p> {{ event.date }} {% if event.day %} ({{ event.day }}) {% endif %} {% if event.time %} {{ event.time }} {% endif %} </p>
-                <p> {{ event.description }} </p>
-                {% if event.event_url %}
-                    <a href=" {{ event.event_url }} " class="btn btn-primary" target="_blank" > More details </a>
-                {% endif %}
-                {% if event.ticket_url %}
-                    <a href=" {{ event.ticket_url }} " class="btn btn-primary" target="_blank" > Get Tickets </a>
-                {% endif %}
             </div>
         </div>
     </div>

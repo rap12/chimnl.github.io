@@ -34,7 +34,7 @@
 - name: "CHI MNL Meetup #2: HCI Research in the Time of the Coronavirus"
   date: "April 20, 2020"
   description: "For researchers whose sole purpose is to listen to the voice of customers and users, how does research happen at a time when you are ordered to social distance & stay at home?"
-  image: "https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.0-9/s960x960/94247155_240044050690192_2033066011292336128_o.png?_nc_cat=103&_nc_sid=8024bb&_nc_ohc=QxGZTBAZzwMAX9-wwJA&_nc_ht=scontent.fmnl17-2.fna&oh=cf18fd121482010396c80239f5b704a0&oe=5EF21A06"
+  image: "/assets/img/events/meetup2.png"
   status: "ended"
 
 - name: "ACM Distinguished Speaker Series: Aaron Quigley on Ubiquitous User Interfaces"
