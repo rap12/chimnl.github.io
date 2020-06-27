@@ -55,7 +55,7 @@ title: "CHI MNL | CHI2020 Study Group"
         <h4 class = "mt-4">How do I participate?</h4>
         <p>People who would like to present CHI papers must do the following steps:</p>
         <ol>
-            <li>Register as a presenter by July 11 (F). We will use the details from your registration to send the links to the Zoom meeting. </li>
+            <li><a href="https://forms.gle/MXZXFpr5pyA6v8No6" target="_blank">Register</a> as a presenter by July 11 (F). We will use the details from your registration to send the links to the Zoom meeting. </li>
             <li>Identify the <a href="https://docs.google.com/spreadsheets/d/1aqK7i3pdSCKhvsVvy1z5LxCx-zN3b091ZnMBjm688YE/edit?usp=sharing" target="_blank">sessions</a> you would like to present by July 11 (F).</li>
         </ol>
         <h4 class = "mt-4">How do I select a session to present?</h4>
